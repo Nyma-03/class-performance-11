@@ -1,0 +1,29 @@
+#division1{
+    height: 300px;
+    border: 10px solid black;
+    background-image: url(image/apple.jfif),url(image/google.png),url(image/iphone.png);
+    background-repeat: no-repeat;
+    background-size: 100px 100px,100px 100px,100px 100px;
+    padding: 20px;
+    background-origin: border-box;
+    background-position: top left,right,center;
+    
+}
+#division2{
+    
+    background-color: aqua;
+    padding: 20px;
+    border: 2px solid black;
+    height: 200px;
+    width: 200ox;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    background-clip: padding-box;
+}
+#division3{
+    border: 10px solid black;
+    background-color: aqua;
+    padding: 20px;
+    background-clip: content-box;
+}
